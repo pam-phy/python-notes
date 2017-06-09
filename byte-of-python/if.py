@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 number = 23
 guess = int(input('Enter an integer : '))
