@@ -8,6 +8,7 @@ while running:
 
 	if guess == number:
 		print('Congradulations, you guessed it.')
+		# 这将导致 while 循环中止
 		running = False
 	elif guess < number:
 		print('No, it is a little higher than that.')
@@ -15,5 +16,6 @@ while running:
 		print('No, it is a little lower than that.')
 else:
 	print('The while loop is over.')
+	# 在这里你可以做你想做的任何事
 
 print('Done')

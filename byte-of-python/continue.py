@@ -8,3 +8,4 @@ while True:
 		print('Too small')
 		continue
 	print('Input is of sufficient length')
+	# 自此处起继续进行其它任何处理
